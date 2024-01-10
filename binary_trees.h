@@ -81,4 +81,5 @@ int is_valid_bst(const binary_tree_t *tree, int min, int max);
 int findMinInRightSubtree(bst_t *node);
 int replaceWithSuccessor(bst_t *root);
 int removeNodeFromBST(bst_t *root);
+int avlCheckRecursive(const binary_tree_t *tree, int min, int max);
 #endif /* _BINARY_TREES_H_ */
