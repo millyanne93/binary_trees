@@ -78,4 +78,7 @@ int *heap_to_sorted_array(heap_t *heap, size_t *size);
 /*helper*/
 int is_complete_tree(const binary_tree_t *tree, size_t index, size_t size);
 int is_valid_bst(const binary_tree_t *tree, int min, int max);
+int findMinInRightSubtree(bst_t *node);
+int replaceWithSuccessor(bst_t *root);
+int removeNodeFromBST(bst_t *root);
 #endif /* _BINARY_TREES_H_ */
